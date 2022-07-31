@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metric Unit Converter</title>
+</head>
+<body>
+    
+        
+<div class="container">
+    <div id="clock"></div>
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h1 class=" display-5 text-sm-right text-md-center mb-3">METRIC || IMPERIAL</h1>
+
+                <form>
+                    <div class="form-group">
+                        <input id="inputMeter" class="form-control form-control-lg" type="number"></input>
+                    </div>
+                </form>
+                        
+                <div id="output">
+                    <div class="card-body mb-2  bg-primary">
+                        <div class="card-block text-center">
+                            <h2>Length (Meter/Feet)</h2>
+                            <p class="card-text"><span id="meters">0</span> meters = <span id="meter-feet">0.000</span> feet |   <span id="feet">0</span> feet = <span id="feet-meter">0.000</span> meters</p>
+                        </div>    
+                    </div>
+                        
+                    <div class="card-body bg-success mb-2">
+                        <div class="card-block text-center">
+                            <h2>Volume (Liters/Gallons)</h2>
+                            <p class="card-text"><span id="liters">0</span> liters = <span id="liter-gallon">0.000</span> gallons | <span id="gallons">0</span> gallons = <span id="gallon-liter">0.000</span> liters</p>
+                        </div>    
+                    </div>
+                        
+
+                    <div class="card-body bg-danger mb-2">
+                        <div class="card-block text-center">
+                            <h2>Mass (Kilograms/Pounds)</h2>
+                            <p class="card-text"><span id="kilos">0</span> kilos = <span id="kilos-pounds">0.000</span> pounds |   <span id="pounds">0</span> pounds = <span id="pounds-kilos">0.000</span> kilos</p>
+                        </div>    
+                    </div>
+                </div>
+              
+               </div>
+             </div>
+            </div>  <!--container-->
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- 
+<h2>Volume (Liters/Gallons)</h2>
+<p><span id="liters">0</span> liters = <span id="liter-gallon">0.000</span> gallons |  <span id="gallons">0</span> gallons = <span id="gallon-liter">0.000</span> liters</p> -->
+
+<!-- <h2>Mass (Kilograms/Pounds)</h2>
+<p><span id="kilos">0</span> kilos = <span id="kilos-pounds">0.000</span> pounds |      <span id="pounds">0</span> pounds = <span id="pounds-kilos">0.000</span> kilos</p> -->
